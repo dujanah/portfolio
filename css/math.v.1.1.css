@@ -1,0 +1,12 @@
+main {
+    background-color: var(--color-one);
+    
+    background-image: url(../images/bg.jpeg);
+    background-position: center;
+    background-attachment: local;
+    background-size: 100vw auto;
+}
+
+#title {
+    color: var(--color-two);
+}

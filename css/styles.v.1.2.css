@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+:root {
+    --color-one: #282828;
+    --color-one-light: #999;
+    
+    --color-two: #3500d3;
+    --color-two-dark: #d4a791;
+    
+    font-family: 'Poiret One', cursive;
+}
+
+.link {
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    
+    background: var(--color-one);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    /*horizontal margin*/
+    --padding-x: 4%;
+    padding-left: var(--padding-x);
+    padding-right: var(--padding-x);
+    
+    /*vertical margin*/
+    --padding-y: 2.4%;
+    padding-top: var(--padding-y);
+    padding-bottom: var(--padding-y);
+}
+
+nav > .home-button {
+    width: 6%;
+}
+
+nav > h1 {
+    font-size: 400%;
+    font-weight: bold;
+}
+
+nav > .menu-button {
+    height: 50px;
+    width: 50px;
+    background: repeating-linear-gradient(
+      180deg,
+      var(--color-two),
+      var(--color-two) 9.8px,
+      var(--color-one) 9.8px,
+      var(--color-one) 19.6px
+    );
+}
+
+footer > .row > .col > .title {
+    font-weight: bold;
+    font-size: 145%;
+    margin-bottom: 3%;
+}
+
+footer > .row > .col > img {
+    width: 9%;
+    margin-left: 0px;
+    margin-right: 2%;
+}
