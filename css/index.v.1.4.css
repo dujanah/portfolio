@@ -1,1 +1,259 @@
+:root {
+    --links-width: 5%;
+    --links-width2: -5%;
+    
+    --project-picture-width: 15vw;
+}
+
+main {
+    background: var(--color-one);
+    
+    background-image: url(../images/bg.jpeg);
+    background-position: center;
+    background-attachment: local;
+    background-size: contain;
+    
+    text-align: center;
+    padding-bottom: 6%;
+}
+
+nav {
+    color: var(--color-two);
+}
+
+/*heading at the top left of page*/
+nav > .website-title {
+    /*font*/
+    font-weight: bold;
+    font-size: 5vw;
+}
+
+/*menu at top right of page*/
+nav > .menu {
+    display: flex;
+    justify-content: space-between;
+    
+    width: 40vw;
+}
+
+/*top right menu items*/
+nav > .menu > * {
+    /*font*/
+    font-weight: bold;
+    font-size: 2.8vw;
+}
+
+/*#intro {
+    background-image: url(../images/bg.jpeg);
+    background-position: center;
+    background-attachment: local;
+    background-size: contain;
+}*/
+
+#intro > .text {
+    color: var(--color-two);
+}
+
+#intro > .text > h1 {
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+
+#intro > .text > p {
+    font-size: 200%;
+    
+    --horizontal-margin: 24%;
+    margin-left: var(--horizontal-margin);
+    margin-right: var(--horizontal-margin);
+}
+
+#intro > .my-picture {
+    width: 16%;
+    
+    --vertical-margin: 0.1%;
+    margin-top: var(--vertical-margin);
+    margin-bottom: var(--vertical-margin);
+}
+
+#intro > .page-links {
+    display: flex;
+    justify-content: center;
+}
+
+#intro > .page-links > * {
+    background: var(--color-two);
+    border-style: solid;
+    border-color: var(--color-two);
+    border-width: 3px;
+    border-radius: 50px;
+    
+    width: 19%;
+    
+    --horizontal-margin: 2%;
+    margin-left: var(--horizontal-margin);
+    margin-right: var(--horizontal-margin);
+    
+    --vertical-margin: 3%;
+    margin-top: var(--vertical-margin);
+    margin-bottom: 4%;
+    
+    font-size: 3vw;
+    font-weight: bold;
+    color: white;
+    padding: 0.5%;
+}
+
+/* The animation code */
+@keyframes links-fade-in {
+  100% {border-color: white;}
+}
+
+#intro > .page-links > *:hover{
+    animation-name: links-fade-in;
+    animation-duration: 0.3s;
+    animation-fill-mode: both;
+}
+
+#intro > .links > div {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+#intro > .links > div > img {
+    width: var(--links-width);
+    border-radius: 50%;
+    
+    --horizontal-margin: 1%;
+    margin-left: var(--horizontal-margin);
+    margin-right: var(--horizontal-margin);
+    
+    background: var(--color-one);
+}
+
+#intro > .links > .original-pictures > img {
+    z-index: 401;
+}
+
+/* The animation code */
+@keyframes fade-out {
+  100% {opacity: 0%;}
+}
+
+#intro > .links > .original-pictures > img:hover {
+    animation-name: fade-out;
+    animation-duration: 0.1s;
+    animation-fill-mode: both;
+}
+
+#intro > .links > div > img.hover {
+    margin-top: var(--links-width2);
+    z-index: 400;
+}
+
+#intro > .links > .original-pictures > img.hover:hover {
+    animation-name: fade-out;
+    animation-duration: 0.1s;
+    animation-fill-mode: both;
+}
+
+
+#about-me {
+    background: var(--color-two);
+    box-shadow: -4px -4px 10px #111;
+    
+    --horizontal-padding: 10%;
+    padding-left: var(--horizontal-padding);
+    padding-right: var(--horizontal-padding);
+    
+    --vertical-padding: 10%;
+    padding-top: var(--vertical-padding);
+    
+    padding-bottom: 7%;
+}
+
+.projects-display {
+    background: white;
+    width: 60vw;
+    
+    border: solid;
+    border-color: var(--color-two-dark);
+    border-radius: 50px;
+    
+    --vertical-padding: 4%;
+    padding-top: var(--vertical-padding);
+    padding-bottom: var(--vertical-padding);
+    
+    opacity: 100%;
+    
+    margin-bottom: 9%;
+}
+
+.projects-display > .row {
+    display: flex;
+    justify-content: center;
+}
+
+.projects-display > .row > .project {
+    text-align: center;
+    
+    width: var(--project-picture-width);
+    
+    --horizontal-margin: 5.5%;
+    margin-left: var(--horizontal-margin);
+    margin-right: var(--horizontal-margin);
+    
+    --vertical-margin: 3%;
+    margin-top: var(--vertical-margin);
+    margin-bottom: var(--vertical-margin);
+}
+
+.projects-display > .row > .project > .picture {
+    background-repeat: none;
+    background-position: center;
+    background-size: 100%;
+    
+    height: var(--project-picture-width);
+    width: var(--project-picture-width);
+    
+    border-radius: 50%;
+}
+
+/* The animation code */
+@keyframes semi-fade-out {
+  0% {opacity: 100%;}
+  100% {opacity: 60%;}
+}
+
+.projects-display > .row > .project > .picture:hover {
+    animation-name: semi-fade-out;
+    animation-duration: 0.6s;
+    animation-fill-mode: both;
+}
+
+.projects-display > .row > .project > .picture + h3 {
+    font-size: 3.2vw;
+    color: var(--color-two-dark);
+    font-weight: 600;
+    
+    --vertical-margin: 20%;
+    margin-top: var(--vertical-margin);
+    margin-bottom: var(--vertical-margin);
+}
+
+.picture.project1 {
+    background-image: url(../images/math.jpeg);
+}
+
+.picture.project2 {
+    background-image: url(../images/default-project.jpg);
+}
+
+.picture.project3 {
+    background-image: url(../images/default-project.jpg);
+}
+
+.picture.project4 {
+    background-image: url(../images/default-project.jpg);
+}
 
