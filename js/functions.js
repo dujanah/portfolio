@@ -1,7 +1,7 @@
 // LINKS
 var links = {
     "homepage": "index.html",
-    "projects": "#projects-display",
+    "projects": ".projects-display",
     "resume": "resume.html",
     "contact": "contact.html",
     "math": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
