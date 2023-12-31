@@ -8,6 +8,7 @@ var links = {
     "github": "https://github.com/dujanah",
     "email": "https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=dujanah.hasan@gmail.com",
     "elpha": "https://elpha.com/members/dujanah",
+    "postapp": "https://github.com/shatat-ah/B07-Group-19",
 };
 
 var pageTitles = ["PROJECTS", "RESUME", "CONTACT", "MENTAL MATH"];
