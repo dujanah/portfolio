@@ -81,7 +81,7 @@ function addIndexDesktopMenu() {
         </div>
     */
     
-    $("nav").append('<div class="menu"> <h3 class="' + pageTitles[0].toLowerCase() + ' link">' + pageTitles[0] + '</h3> <h3 class="' + pageTitles[1].toLowerCase() + ' link">' + pageTitles[1] + '</h3> <h3 class="' + pageTitles[2].toLowerCase() + ' link">' + pageTitles[2] + '</h3></div>');
+    $("nav").append('<div class="menu"> <h3 class="' + pageTitles[2].toLowerCase() + ' link">' + pageTitles[2] + '</h3></div>');
 }
 
 function setLinks(){
