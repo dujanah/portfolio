@@ -19,6 +19,7 @@ main {
 
 nav {
     color: var(--color-two);
+    justify-content: space-between;
 }
 
 /*heading at the top left of page*/
