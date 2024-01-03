@@ -31,9 +31,9 @@ nav > .website-title {
 /*menu at top right of page*/
 nav > .menu {
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
     
-    width: 70vw;
+    width: 100vw;
 }
 
 /*top right menu items*/
