@@ -246,7 +246,7 @@ nav > .menu > * {
 }
 
 .picture.project2 {
-    background-image: url(../images/default-project.jpg);
+    background-image: url(../images/smt.png);
 }
 
 .picture.project3 {
@@ -255,4 +255,9 @@ nav > .menu > * {
 
 .picture.project4 {
     background-image: url(../images/default-project.jpg);
+}
+
+#resume_first {
+    color: white;
+    text-decoration: none;
 }
