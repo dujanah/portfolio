@@ -7,9 +7,11 @@ var links = {
     "math": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "github": "https://github.com/dujanah",
     "email": "https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=dujanah.hasan@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/dujanah-z-350164255/",
     "elpha": "https://elpha.com/members/dujanah",
     "postapp": "https://github.com/shatat-ah/B07-Group-19",
     "placeholder": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "smt": "https://github.com/dujanah/System-Monitoring-Tool",
 };
 
 var pageTitles = ["PROJECTS", "RESUME", "CONTACT", "MENTAL MATH"];
