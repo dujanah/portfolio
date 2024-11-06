@@ -99,11 +99,6 @@ function setLinks(){
             }
         }
     });
-    
-    $(".projects").click(function(){
-        window.open("#projects-display", "_self");
-        link = true;
-    });
 }
 
 function setMobileStyles(){
