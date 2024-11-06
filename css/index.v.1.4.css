@@ -242,19 +242,19 @@ nav > .menu > * {
 }
 
 .picture.project1 {
-    background-image: url(../images/math.jpeg);
+    background-image: url(../images/uoft.png);
 }
 
 .picture.project2 {
-    background-image: url(../images/smt.png);
+    background-image: url(../images/bsaweb.png);
 }
 
 .picture.project3 {
-    background-image: url(../images/default-project.jpg);
+    background-image: url(../images/web.png);
 }
 
 .picture.project4 {
-    background-image: url(../images/default-project.jpg);
+    background-image: url(../images/easyeats.png);
 }
 
 #resume_first {

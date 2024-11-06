@@ -1,8 +1,7 @@
 // LINKS
 var links = {
     "homepage": "index.html",
-    "projects": "#projects-display",
-    "resume": "resume.html",
+    "resume": "https://drive.google.com/file/d/1muFhybss155J2Cc9pxa_8sy15hkfbs2P/view?usp=drive_link",
     "contact": "https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=dujanah.hasan@gmail.com",
     "math": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "github": "https://github.com/dujanah",
@@ -12,6 +11,9 @@ var links = {
     "postapp": "https://github.com/shatat-ah/B07-Group-19",
     "placeholder": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "smt": "https://github.com/dujanah/System-Monitoring-Tool",
+    "bsaweb": "https://dujanah.github.io/bsa_website",
+    "webgallery": "https://github.com/dujanah/webgallery",
+    "easyeats": "https://github.com/danawan0409/easyeats",
 };
 
 var pageTitles = ["PROJECTS", "RESUME", "CONTACT", "MENTAL MATH"];
@@ -92,15 +94,16 @@ function setLinks(){
     $(".link").click(function(){
         for (selector in links){
             if ($(this).hasClass(selector)){
-                window.open(links[selector], "_self");
+                window.open(links[selector]);
                 link = true;
             }
         }
     });
     
-    if (!(link)){
-        window.open("#", "_self");
-    }
+    $(".projects").click(function(){
+        window.open("#projects-display", "_self");
+        link = true;
+    });
 }
 
 function setMobileStyles(){
