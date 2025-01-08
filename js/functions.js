@@ -1,7 +1,7 @@
 // LINKS
 var links = {
     "homepage": "index.html",
-    "resume": "https://drive.google.com/file/d/1muFhybss155J2Cc9pxa_8sy15hkfbs2P/view?usp=drive_link",
+    "resume": "https://drive.google.com/file/d/1HWYsIUaO_sPhQdZ0epo-tNnEma7CaHNZ/view?usp=sharing",
     "contact": "https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=dujanah.hasan@gmail.com",
     "math": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "github": "https://github.com/dujanah",
